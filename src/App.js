@@ -1,8 +1,11 @@
 import React from 'react';
+import Routes from './routes'
+
+import './glogal.css'
 
 function App() {
   return (
-    <h1>HELLO WORLD</h1>
+    <Routes />
   );
 }
 
