@@ -7,3 +7,7 @@
   box-sizing: border-box;
   background: #F4F4F4 0% 0% no-repeat padding-box;
 }
+body {
+  font: 400 14px Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}

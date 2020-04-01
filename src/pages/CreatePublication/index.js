@@ -5,8 +5,9 @@ import './styles.css'
 export default function CreatePublication() {
   return (
     <div className="createpublication-container">
+      <div id="title"> <h2>Criar uma publicação</h2> </div>
       <div className="content">
-        <form className="form-content">
+        <form>
           <div>
             Faça o upload de uma imagem
           </div>
@@ -17,8 +18,8 @@ export default function CreatePublication() {
             <option value="sport">Sport</option>
             <option value="outher">Outher</option>
           </select>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Descrição da publicação"></textarea>
-          <button type="submit">Cadastrar</button>
+          <textarea placeholder="Descrição da publicação"></textarea>
+          <button type="submit">Criar publicação</button>
         </form>
       </div>
     </div>

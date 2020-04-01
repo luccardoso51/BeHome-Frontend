@@ -3,8 +3,6 @@ import Routes from './routes'
 
 import './glogal.css'
 
-import Login from './pages/Login';
-
 function App() {
   return (
     <Routes />
