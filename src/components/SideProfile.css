@@ -1,0 +1,10 @@
+.sideprofile-contend {
+  width: 20%;
+  position: absolute;
+  left: 40px;
+  top: 25px;
+}
+
+.sideprofile-contend img {
+  width: 150px;
+}

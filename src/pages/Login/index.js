@@ -9,7 +9,7 @@ export default function Login() {
     return (
         <div className="logon-container">
             <section className="form">
-                <img src={LogoImg} alt=""/>
+                <img src={LogoImg} alt="Be Home"/>
 
                 <form>
                     <h1>Login</h1>

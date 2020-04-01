@@ -1,10 +1,12 @@
 import React from 'react'
 
+import SideProfile from '../../components/SideProfile'
 import './styles.css'
 
 export default function CreatePublication() {
   return (
     <div className="createpublication-container">
+      <SideProfile />
       <div id="title"> <h2>Criar uma publicação</h2> </div>
       <div className="content">
         <form>
