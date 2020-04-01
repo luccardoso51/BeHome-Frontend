@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -9,7 +10,7 @@ export default function Login() {
     return (
         <div className="logon-container">
             <section className="form">
-                <img src={LogoImg} alt="Be Home"/>
+                <img src={LogoImg} alt="BeHome"/>
 
                 <form>
                     <h1>Login</h1>
@@ -19,9 +20,9 @@ export default function Login() {
 
                 </form>
                 <section className="register">
-                    <a href="/Register">
+                    <Link to="/Register">
                         Não tenho cadastro
-                    </a>
+                    </Link>
                 </section>
                   
                
