@@ -9,11 +9,11 @@ export default function SideProfile () {
     <div className="sideprofile-container">
       <div className="sideprofile-contend">
         <img src={ImgLogo} alt="Be Home" />
-        <h2>Lucas Cardoso</h2>
+        <h3>Lucas Cardoso</h3>
         <p>Seu ID: 66609333</p>
         <button>Minhas publicações</button>
       </div>
-      <a href="/"><FaArrowLeft size={20} /></a>
+      <a href="/"><FaArrowLeft size={20} /><span>Voltar</span></a>
     </div>
   )
 }

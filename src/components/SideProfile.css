@@ -8,6 +8,9 @@
 .sideprofile-contend img {
   width: 150px;
 }
+.sideprofile-contend h3 {
+  padding: 5px 0;
+}
 
 .sideprofile-contend button {
   cursor: pointer;
@@ -37,5 +40,11 @@
   left: 5%;
   bottom: 5%;
   text-decoration: none;
-  color: #FF7B7B
+  color: #FF7B7B;
+  display: flex;
+  align-items: center;
+}
+
+.sideprofile-container a span {
+  font-size: 22px;
 }
