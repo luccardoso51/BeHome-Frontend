@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {FaArrowLeft} from 'react-icons/fa'
 
 import ImgLogo from '../assets/Logo.png'
@@ -13,7 +14,7 @@ export default function SideProfile () {
         <p>Seu ID: 66609333</p>
         <button>Minhas publicações</button>
       </div>
-      <a href="/"><FaArrowLeft size={20} /><span>Voltar</span></a>
+      <Link to="/"><FaArrowLeft size={20} /><span>Voltar</span></Link>
     </div>
   )
 }

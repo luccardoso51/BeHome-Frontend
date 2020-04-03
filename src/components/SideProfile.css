@@ -1,6 +1,6 @@
 .sideprofile-contend {
   width: 15%;
-  position: absolute;
+  position: fixed;
   left: 5%;
   top: 25px;
 }
@@ -36,7 +36,7 @@
 }
 
 .sideprofile-container a {
-  position: absolute;
+  position: fixed;
   left: 5%;
   bottom: 5%;
   text-decoration: none;
