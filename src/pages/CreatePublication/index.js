@@ -4,6 +4,12 @@ import SideProfile from '../../components/SideProfile'
 import './styles.css'
 
 export default function CreatePublication() {
+
+  function fileSelectedHandler (event) {
+    console.log(event.target.files[0]);
+  }
+  
+
   return (
     <div className="createpublication-container">
       <SideProfile />
@@ -11,14 +17,17 @@ export default function CreatePublication() {
       <div className="content">
         <form>
           <div>
-            Faça o upload de uma imagem
+            <label htmlFor="fileinp">
+              <span id="text">Faça o update de uma imagem</span>
+              <input type="file" id="fileinp" onChange={fileSelectedHandler}/>
+            </label>
           </div>
           <input placeholder="Título da publicação" />
           <select >
             <option value="education">Education</option>
             <option value="music">Music</option>
             <option value="sport">Sport</option>
-            <option value="outher">Outher</option>
+            <option value="outher">Others</option>
           </select>
           <textarea placeholder="Descrição da publicação"></textarea>
           <button type="submit">Criar publicação</button>

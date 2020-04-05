@@ -1,0 +1,9 @@
+.publication-container {
+  background: red;
+  width: 50%;
+  min-width: 400px;
+  height: 70vh;
+  border-radius: 30px;
+  display: grid;
+  grid-template-rows: 50% 2% 48%;
+}

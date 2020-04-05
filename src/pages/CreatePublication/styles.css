@@ -79,8 +79,51 @@
   font-family: 'Raleway', sans-serif;
   transition: filter 0.2s;
 }
+.content form div {
+  display: grid;
+  align-items: center;
+}
 
 .createpublication-container .content form button:hover {
   filter: brightness(90%);
 }
 
+.custom-file-input {
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Faça o upload de uma imagem';
+  display: inline-block;
+  background: white;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+
+.createpublication-container label{ 
+  position: relative; 
+  background: white;
+  margin: 0 auto;
+} 
+#fileinp{ 
+  position: absolute; 
+  left: 0; 
+  top: 0;
+  opacity: 0; 
+} 
+#btn{ 
+  margin-right: 5px; 
+} 
+#text{ 
+  color: #343434;
+  background: white;
+}
