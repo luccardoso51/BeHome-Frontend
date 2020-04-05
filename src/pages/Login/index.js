@@ -16,7 +16,11 @@ export default function Login() {
                     <h1>Login</h1>
 
                     <input placeholder="Entre com seu código ID"/>
+                    
+                    <Link to="/feed">
                     <button type="submit">Entrar</button>
+                    </Link>
+                    
 
                 </form>
                 <section className="register">
