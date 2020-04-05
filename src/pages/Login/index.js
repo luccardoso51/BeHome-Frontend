@@ -12,15 +12,17 @@ export default function Login() {
             <section className="form">
                 <img src={LogoImg} alt="BeHome"/>
 
+
                 <form>
                     <h1>Login</h1>
 
                     <input placeholder="Entre com seu código ID"/>
                     
-                    <Link to="/feed">
-                    <button type="submit">Entrar</button>
-                    </Link>
-                    
+                    <section className='login-btn'>
+                        <Link to="/feed">
+                            <button type="submit">Entrar</button>
+                        </Link>
+                    </section>
 
                 </form>
                 <section className="register">
@@ -31,7 +33,6 @@ export default function Login() {
                   
                
             </section>
-
             <img src={BeHomeImg} alt="BeHome"/>
         </div>
     );

@@ -53,6 +53,12 @@ body {
     background-color: #FFFFFF;
 }
 
+.logon-container section.form form .login-btn {
+    width: fit-content;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
 .logon-container section.form form input {
     width: 230px;
     height: 38px;
@@ -83,7 +89,7 @@ body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     margin-top: 15px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     transition: filter 0.2s;
 }
 
@@ -91,9 +97,8 @@ body {
     filter: brightness(90%);
 }
 
-.logon-container section.form section.register a {
-    
-    width: auto;
+.logon-container section.form section.register a { 
+    width: fit-content;
     margin-left: 75px;    
     display: flex;
     margin-top: 20px;
