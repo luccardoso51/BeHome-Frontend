@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import Aside from '../../components/Aside'
-import Button from '../../components/Button'
-import Publication from '../../components/Publication'
-import imgLogo from '../../assets/Logo.png'
+import Aside from '../../components/Aside/Aside'
+import Button from '../../components/Button/Button'
+import Publication from '../../components/Publication/Publication'
+import Description from '../../components/Description/Description'
 
-import imgBack from '../../assets/toa-heftiba-Ju7ycYj8jfQ-unsplash.png'
+import imgLogo from '../../assets/Logo.png'
+import imgBack from '../../assets/teste.png'
 
 import './styles.css'
 
@@ -30,17 +31,19 @@ export default function Feed() {
       </Aside>
       <Publication className="publication">
         <img id="imgback" src={imgBack} alt="ImageMusic"/>
-        <div></div>
-        <div>
-        <h2>Aula de violão gratis online</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea 
-           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-           ipsum dolor sit amet. Lorem ipsum dolor sit amet</p>
-           <Button className="acessar" background="#FF7B7B">Acessar</Button>
-
-        </div>
+        <Description>
+          <h2 className="back-white">Aula de violão gratis online</h2>
+          <p className='back-white'>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea 
+            rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
+            ipsum dolor sit amet. Lorem ipsum dolor sit amet
+          </p>
+          <Button className="acessar" background="#FF7B7B">Acessar</Button>
+        </Description>
+        
+        
       </Publication>
     </div>
   )

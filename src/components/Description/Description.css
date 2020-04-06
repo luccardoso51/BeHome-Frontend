@@ -1,0 +1,7 @@
+.descriotion-container {
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  justify-items: left;
+}

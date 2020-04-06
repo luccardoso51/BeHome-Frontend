@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SideProfile from '../../components/SideProfile'
+import SideProfile from '../../components/SideProfile/SideProfile'
 import './styles.css'
 
 export default function CreatePublication() {

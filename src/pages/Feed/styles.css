@@ -28,7 +28,7 @@ Aside {
   background: white;
   color: #FF7B7B;
 }
-.feed-container p, .feed-container h2 {
+.feed-container publication p, .feed-container publication h2 {
   justify-items: left;
   background: transparent;
 }
@@ -37,5 +37,12 @@ Aside {
   width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  object-fit: cover;
+}
+
+.back-white {
+  background: white;
+}
+
+.acessar {
+  background-color: red;
 }
