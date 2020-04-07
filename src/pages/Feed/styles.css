@@ -44,5 +44,24 @@ Aside {
 }
 
 .acessar {
-  background-color: red;
+  background: #FF7B7B;
+  margin: 0 auto;
 }
+
+.buttons {
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+
+  background: transparent;
+}
+
+.buttons Button {
+  margin: 0 5px;
+}
+
+.descriotion-container {
+  position: relative;
+  bottom: 30px;
+}
+

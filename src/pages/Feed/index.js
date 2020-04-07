@@ -30,8 +30,15 @@ export default function Feed() {
         <button className="sair">Sair</button>
       </Aside>
       <Publication className="publication">
-        <img id="imgback" src={imgBack} alt="ImageMusic"/>
+      
+          <img id="imgback" src={imgBack} alt="ImageMusic"/>
+          <div className="buttons">
+            <Button background="#CCC13C">Educação</Button>
+            <Button background="#7B80FF">Musica</Button>
+          </div>
+        
         <Description>
+        
           <h2 className="back-white">Aula de violão gratis online</h2>
           <p className='back-white'>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
@@ -40,10 +47,9 @@ export default function Feed() {
             rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
             ipsum dolor sit amet. Lorem ipsum dolor sit amet
           </p>
-          <Button className="acessar" background="#FF7B7B">Acessar</Button>
+          <button className="acessar" background="#FF7B7B">Acessar</button>
         </Description>
-        
-        
+
       </Publication>
     </div>
   )

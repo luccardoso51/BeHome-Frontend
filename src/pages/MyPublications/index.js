@@ -7,7 +7,6 @@ import './styles.css';
 
 
 import ImgLogo from '../../assets/Logo.png';
-import publicationImg from '../../assets/publication.png';
 
 export default function MyPublications() {
     return (

@@ -1,3 +1,5 @@
 .aside-container {
   width: 250px;
+  position: relative;
+  left: 40px;
 }
