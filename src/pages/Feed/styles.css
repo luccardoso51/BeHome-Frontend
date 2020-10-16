@@ -12,7 +12,8 @@ Aside {
   padding: 0 0 40px 0;
 }
 
-.feed-container h3, .feed-container h2 {
+.feed-container h3,
+.feed-container h2 {
   margin: 5px 0;
 }
 .feed-container p {
@@ -20,15 +21,16 @@ Aside {
 }
 .feed-container a {
   text-decoration: none;
-  color: #FF7B7B;
+  color: #ff7b7b;
 }
 
 .sair {
-  margin-top: 50px;
+  margin-top: 0px;
   background: white;
-  color: #FF7B7B;
+  color: #ff7b7b;
 }
-.feed-container publication p, .feed-container publication h2 {
+.feed-container publication p,
+.feed-container publication h2 {
   justify-items: left;
   background: transparent;
 }
@@ -44,7 +46,7 @@ Aside {
 }
 
 .acessar {
-  background: #FF7B7B;
+  background: #ff7b7b;
   margin: 0 auto;
 }
 
@@ -64,4 +66,3 @@ Aside {
   position: relative;
   bottom: 30px;
 }
-
