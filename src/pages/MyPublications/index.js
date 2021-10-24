@@ -5,6 +5,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import "./styles.css";
 
 import ImgLogo from "../../assets/Logo.png";
+import Description from "../../components/Description/Description";
 
 export default function MyPublications() {
   const Posts = [
@@ -92,16 +93,16 @@ export default function MyPublications() {
         </Link>
       </div>
 
-      <section>
+      <section className="publications">
         <h1>Minhas publicações</h1>
         {Posts.map((info) => (
           <div className="grid">
             <div className="publi-box">
-              <img
-                src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg"
-                alt="ImageMusic"
-              />
-              <p>{info.description}</p>
+              <img src={info.img_url} alt="ImageMusic" />
+              <p className="publi-description">{info.description}</p>
+              <button className="acessar" background="#FF7B7B">
+                Editar
+              </button>
             </div>
           </div>
         ))}
