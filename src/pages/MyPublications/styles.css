@@ -87,10 +87,31 @@ h1 {
   margin-bottom: 0;
 }
 
+.publications {
+  grid-template-columns: 250px auto;
+  width: 80%;
+  display: grid;
+  justify-items: center;
+}
+
 .publi-box {
   max-width: 350px;
-  max-height: 80%;
   background: white;
   border-radius: 30px;
-  margin: 30px auto 0 auto;
+  margin: 20px 100px;
+  justify-content: center;
+  align-content: center;
+  max-height: 80%;
+}
+.publi-description {
+  background: white;
+  margin: 10 10 10 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.acessar {
+  background: #ff7b7b;
+  align-self: center;
+  justify-self: center;
+  margin: 0 auto;
 }
