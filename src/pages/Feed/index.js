@@ -63,6 +63,24 @@ export default function Feed() {
       content_url:
         "https://www.vittude.com/blog/quarentena-como-manter-a-saude-mental/",
     },
+
+    {
+      title: "Quarentena: como manter a saúde mental em dia?",
+      description:
+        "Este artigo tem como objetivo ser um abraço cuidadoso em todos que já estão em casa, em quarentena, se isolando e cuidado de si para cuidar dos outros também. Vamos falar sobre o momento pelo qual o Brasil está passando e dar dicas valiosas sobre como preservar a sua saúde mental!",
+      img_url: "https://www.vittude.com/blog/wp-content/uploads/Quarentena.jpg",
+      content_url:
+        "https://www.vittude.com/blog/quarentena-como-manter-a-saude-mental/",
+    },
+
+    {
+      title: "Quarentena: como manter a saúde mental em dia?",
+      description:
+        "Este artigo tem como objetivo ser um abraço cuidadoso em todos que já estão em casa, em quarentena, se isolando e cuidado de si para cuidar dos outros também. Vamos falar sobre o momento pelo qual o Brasil está passando e dar dicas valiosas sobre como preservar a sua saúde mental!",
+      img_url: "https://www.vittude.com/blog/wp-content/uploads/Quarentena.jpg",
+      content_url:
+        "https://www.vittude.com/blog/quarentena-como-manter-a-saude-mental/",
+    },
   ];
   return (
     <div className="feed-container">
