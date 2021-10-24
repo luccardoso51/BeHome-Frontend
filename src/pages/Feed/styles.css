@@ -1,7 +1,7 @@
 .feed-container {
   width: 100%;
-  max-width: 1200px;
-  margin: 40px auto 0 auto;
+  max-width: 80%;
+  margin: 20px auto 0 auto;
   position: relative;
   display: grid;
   grid-template-columns: 250px auto;
@@ -65,4 +65,5 @@ Aside {
 .descriotion-container {
   position: relative;
   bottom: 30px;
+  padding-top: 10px;
 }
