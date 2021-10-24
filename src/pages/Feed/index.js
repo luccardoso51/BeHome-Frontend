@@ -89,7 +89,7 @@ export default function Feed() {
         <h3>Lucas Cardoso</h3>
         <h4>Seu Id:</h4>
         <h4>66609333</h4>
-        <Link to="/mypublication">Minhas publicações</Link>
+        <Link to="/mypublications">Minhas publicações</Link>
         <p>Categorias:</p>
 
         <Button background="#FF7B7B">Todas</Button>
