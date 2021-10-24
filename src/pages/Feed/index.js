@@ -28,7 +28,7 @@ export default function Feed() {
       description:
         " A SAE Digital disponibilizou uma solução completa de ensino a distância, composta por videoaulas, roteiros de atividades e ferramentas digitais de ensino e aprendizagem com os conteúdos previstos pela Base Nacional Comum Curricular (BNCC) e matriz do Exame Nacional do Ensino Médio (Enem).",
       img_url:
-        "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB128M0u.img?h=600&w=799&m=6&q=60&o=f&l=f&x=173&y=370",
+        "https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg",
       content_url:
         "https://www.msn.com/pt-br/noticias/educacao/sae-digital-disponibiliza-aulas-online-do-ensino-fundamental-e-m%c3%a9dio/ar-BB128YwQ",
     },
@@ -65,12 +65,12 @@ export default function Feed() {
     },
 
     {
-      title: "Quarentena: como manter a saúde mental em dia?",
+      title: "Quarentena:dasdasdasdasdas",
       description:
         "Este artigo tem como objetivo ser um abraço cuidadoso em todos que já estão em casa, em quarentena, se isolando e cuidado de si para cuidar dos outros também. Vamos falar sobre o momento pelo qual o Brasil está passando e dar dicas valiosas sobre como preservar a sua saúde mental!",
-      img_url: "https://www.vittude.com/blog/wp-content/uploads/Quarentena.jpg",
-      content_url:
-        "https://www.vittude.com/blog/quarentena-como-manter-a-saude-mental/",
+      img_url:
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.paho.org%2Fpt%2Fnoticias%2F7-5-2021-oms-lista-mais-uma-vacina-contra-covid-19-para-uso-emergencial-e-emite&psig=AOvVaw3N2GaweI_DVtnBs3IK1gO8&ust=1635197490934000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjH0r7_4_MCFQAAAAAdAAAAABAD",
+      content_url: "https://react.school/",
     },
 
     {
@@ -110,9 +110,11 @@ export default function Feed() {
           <Description>
             <h2 className="back-white">{info.title}</h2>
             <p className="back-white">{info.description}</p>
-            <button className="acessar" background="#FF7B7B">
-              Acessar
-            </button>
+            <a className="acessar" href={info.content_url}>
+              <button className="acessar" background="#FF7B7B">
+                Acessar
+              </button>
+            </a>
           </Description>
         </Publication>
       ))}
