@@ -56,21 +56,14 @@ export default function Feed() {
     },
 
     {
-      title: "Quarentena: como manter a saúde mental em dia?",
+      title:
+        "Vacina Covid-19: Triângulo, Alto Paranaíba e Noroeste de MG recebem mais de 24 mil doses da AstraZeneca em parte do 60º lote",
       description:
-        "Este artigo tem como objetivo ser um abraço cuidadoso em todos que já estão em casa, em quarentena, se isolando e cuidado de si para cuidar dos outros também. Vamos falar sobre o momento pelo qual o Brasil está passando e dar dicas valiosas sobre como preservar a sua saúde mental!",
-      img_url: "https://www.vittude.com/blog/wp-content/uploads/Quarentena.jpg",
-      content_url:
-        "https://www.vittude.com/blog/quarentena-como-manter-a-saude-mental/",
-    },
-
-    {
-      title: "Quarentena:dasdasdasdasdas",
-      description:
-        "Este artigo tem como objetivo ser um abraço cuidadoso em todos que já estão em casa, em quarentena, se isolando e cuidado de si para cuidar dos outros também. Vamos falar sobre o momento pelo qual o Brasil está passando e dar dicas valiosas sobre como preservar a sua saúde mental!",
+        "As regiões do Triângulo Mineiro, Alto Paranaíba e Noroeste de Minas Gerais estão recebendo mais 24.615 doses de vacina para a aplicação contra a Covid-19. Os imunizantes são parte do 60º lote do Ministério da Saúde para o Estado, que realiza a distribuição às 28 Unidades Regionais de Saúde (URS) desde quinta-feira (21). Ao todo, são 183 mil doses distribuídas para todo Estado. Na nova remessa, não há vacinas da CoronaVac e Pfizer.",
       img_url:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.paho.org%2Fpt%2Fnoticias%2F7-5-2021-oms-lista-mais-uma-vacina-contra-covid-19-para-uso-emergencial-e-emite&psig=AOvVaw3N2GaweI_DVtnBs3IK1gO8&ust=1635197490934000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjH0r7_4_MCFQAAAAAdAAAAABAD",
-      content_url: "https://react.school/",
+        "https://s2.glbimg.com/YjFdcOdfwMLNr8e2erdD2dfIh_8=/0x0:1280x853/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/0/P/MbwAXYSFKslFxeSiKyhg/whatsapp-image-2021-09-28-at-14.39.06.jpeg",
+      content_url:
+        "https://g1.globo.com/mg/triangulo-mineiro/noticia/2021/10/23/vacina-covid-19-triangulo-alto-paranaiba-e-noroeste-de-mg-recebem-mais-de-24-mil-doses-da-astrazeneca-em-parte-do-60o-lote.ghtml",
     },
 
     {
